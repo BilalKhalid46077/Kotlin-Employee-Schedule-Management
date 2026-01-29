@@ -23,13 +23,13 @@ fun getSchedule(scheduleList: MutableList<ScheduleModel>): LinkedHashMap<String,
         Shifts.entries.map {
             it.toString()
         }.filter { it != Shifts.Off.name }.forEach { shift ->
-            // Must have two employee per shift per day
             scheduleList.filter {
                 it.scheduleMap.contains(day)
             }.also { list ->
                 list.filter { it.scheduleMap[day] == shift }.map { it.employeeName }
                     .also { list ->
                         if(list.isNotEmpty()){
+                            // Must have two employee per shift per day
                             names = list.take(2).joinToString()
                             // If not two employee available for this shift
                             if (list.size < 2) {
@@ -54,9 +54,10 @@ fun getSchedule(scheduleList: MutableList<ScheduleModel>): LinkedHashMap<String,
                                 }
                             }
                             else {
-                                // Schedule Conflict
+                                // More than two employees available on this shift
+                                // Shift Conflict
                                 list.drop(2).forEach { name ->
-                                    // drop employee schedule
+                                    // drop extra employee shift
                                     scheduleList.find { it.employeeName == name }?.let { item->
                                         val newItem = item.copy(
                                             scheduleMap = item.scheduleMap.also { map ->
