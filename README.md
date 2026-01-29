@@ -2,7 +2,7 @@
 
 #Install latest version of Android Studio
 
-#Install emulator on Android Studio or connect your android device with data cabel
+#Install emulator on Android Studio or connect your android device with datacable.
 
 #Clone Repo SSH "git@github.com:BilalKhalid46077/Kotlin-Employee-Schedule-Management.git"
 
