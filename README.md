@@ -17,8 +17,7 @@
 # Screenshots
 
 # Add Schedule Screen
-
-<img width="308" height="574" alt="Screenshot_20260129_021021" src="https://github.com/user-attachments/assets/96191374-a7de-4d3c-b83b-e46769891757" />
+<img width="308" height="574" alt="Screenshot_20260129_023716" src="https://github.com/user-attachments/assets/54c2f829-3505-4fb4-b956-0ba01d4414cd" />
 
 # Usecase: Employees available for each shift per day
 
