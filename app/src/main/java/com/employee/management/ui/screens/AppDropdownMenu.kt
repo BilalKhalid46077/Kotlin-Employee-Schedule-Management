@@ -1,4 +1,4 @@
-package com.employee.management.ui
+package com.employee.management.ui.screens
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
