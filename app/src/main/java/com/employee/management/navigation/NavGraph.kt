@@ -55,6 +55,7 @@ fun NavigationGraph(innerPadding: PaddingValues) {
             route = NavRoutes.ShowSchedules.route
         ) {
             ShowScheduleScreen(
+                noOfEmployee = scheduleList.size,
                 scheduleMap = getSchedule(scheduleList)
             )
         }
