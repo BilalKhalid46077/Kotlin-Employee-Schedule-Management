@@ -18,18 +18,18 @@
 
 # Add Schedule Screen
 
-<img width="1408" height="2974" alt="Screenshot_20260129_021021" src="https://github.com/user-attachments/assets/96191374-a7de-4d3c-b83b-e46769891757" />
+<img width="308" height="574" alt="Screenshot_20260129_021021" src="https://github.com/user-attachments/assets/96191374-a7de-4d3c-b83b-e46769891757" />
 
 # Usecase: Employees available for each shift per day
 
-<img width="1408" height="2974" alt="Screenshot_20260129_021844" src="https://github.com/user-attachments/assets/52372345-10f6-4523-9953-17b5a486a0cf" />
+<img width="308" height="574" alt="Screenshot_20260129_021844" src="https://github.com/user-attachments/assets/52372345-10f6-4523-9953-17b5a486a0cf" />
 
 # Usecase: Shift Conflict (All 3 employees selected morning shift)
 
-<img width="1408" height="2974" alt="Screenshot_20260129_021943" src="https://github.com/user-attachments/assets/de7754b0-fb86-498f-b8dc-4f1e2e991802" />
+<img width="308" height="574" alt="Screenshot_20260129_021943" src="https://github.com/user-attachments/assets/de7754b0-fb86-498f-b8dc-4f1e2e991802" />
 
 # Usecase: All 3 employees selected different shift
 
-<img width="1408" height="2974" alt="Screenshot_20260129_022043" src="https://github.com/user-attachments/assets/597e83fd-8063-48a7-8cac-f9184159aa61" />
+<img width="308" height="574" alt="Screenshot_20260129_022043" src="https://github.com/user-attachments/assets/597e83fd-8063-48a7-8cac-f9184159aa61" />
 
 
